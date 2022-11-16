@@ -1,0 +1,51 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "tabnine.experimentalAutoImports": true,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.fontFamily": "'Fira Code iScript','Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "diffEditor.codeLens": true,
+    "window.zoomLevel": 0,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    //following will be in italic (=FlottFlott)
+                    "comment",
+                    "entity.name.type.class", //class names
+                    "keyword", //import, export, return…
+                    "keyword.operator", //import, export, return…
+                    "storage.modifier", //static keyword
+                    "storage.type", //class keyword
+                    "support.class.builtin",
+                    "keyword.control",
+                    "constant.language",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json",
+                    "entity.other.attribute-name", // attribute name
+                    "string.quoted.single", // single quoted string & attribute values
+                    // "string.quoted.double", // double quoted string & attribute values
+                    "entity.name.method",
+                    // "entity.name.tag", // tag name
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                }
+            }
+        ]
+    },
+    "editor.fontWeight": "normal",
+}
